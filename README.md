@@ -1,3 +1,27 @@
+---
+
+## 🛠️ Admin Portal Prototype — C4GT 2025 Proposal
+
+This fork contains a prototype implementation of the **Dalgo Admin Portal frontend**
+built as a C4GT 2025 selection proposal.
+
+### What's Implemented
+- Admin dashboard with monitoring and health views
+- Organization CRUD UI with search, pagination, and bulk actions
+- Role & permission management interface
+- Invitation management workflows
+- Audit log viewer with filtering and search
+- Responsive admin layouts and RBAC-aware route protection
+- Charts and metrics visualization using ECharts
+
+### Branch
+`feature/c4gt-admin-portal`
+
+### Proposal Documentation
+Full frontend architecture decisions, implemented features, and roadmap:
+[admin_web_proposal.md](admin_web_proposal.md)
+
+---
 # Dalgo Web Application
 
 A modern web application built with Next.js 15 and React 19, featuring a comprehensive dashboard system with data visualization, analytics, and reporting capabilities.

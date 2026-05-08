@@ -15,6 +15,11 @@ interface ClientLayoutProps {
 
 export function ClientLayout({ children }: ClientLayoutProps) {
   const pathname = usePathname();
+
+  // Check if dev mode is enabled for admin portal
+  const isAdminDevMode = process.env.NEXT_PUBLIC_ADMIN_DEV_MODE === 'true';
+  const isAdminRoute = pathname.startsWith('/admin');
+
   const isPublicRoute =
     publicRoutes.includes(pathname) ||
     pathname.startsWith('/public/dashboard/') ||
@@ -30,6 +35,16 @@ export function ClientLayout({ children }: ClientLayoutProps) {
   ) {
     return (
       <div id="client-layout-public-dashboard">
+        {children}
+        <Toaster richColors position="top-center" />
+      </div>
+    );
+  }
+
+  // Bypass auth for admin routes in dev mode
+  if (isAdminRoute && isAdminDevMode) {
+    return (
+      <div id="client-layout-admin-dev-mode">
         {children}
         <Toaster richColors position="top-center" />
       </div>
