@@ -149,8 +149,43 @@ webapp_v2/
 
 ## 6. Screenshots
 
-*[Insert screenshots of different pages here]*
+<table width="100%">
+  <tr>
+    <td width="33%" align="center">
+      <img src="screenshots/dashboard.png" width="100%" alt="Dashboard Page">
+      <br />
+      <strong>Dashboard</strong>
+    </td>
+    <td width="33%" align="center">
+      <img src="screenshots/organization.png" width="100%" alt="Organizations Page">
+      <br />
+      <strong>Organizations</strong>
+    </td>
+    <td width="33%" align="center">
+      <img src="screenshots/roles.png" width="100%" alt="Roles Page">
+      <br />
+      <strong>Roles</strong>
+    </td>
+  </tr>
+  <tr>
+    <td width="33%" align="center">
+      <img src="screenshots/pipeline.png" width="100%" alt="Pipelines Page">
+      <br />
+      <strong>Pipelines</strong>
+    </td>
+    <td width="33%" align="center">
+      <img src="screenshots/audit-logs.png" width="100%" alt="Audit Logs Page">
+      <br />
+      <strong>Audit Logs</strong>
+    </td>
+    <td width="33%" align="center" style="vertical-align: middle;">
+      <img src="screenshots/health.png" width="100%" alt="Health Page">
+      <strong>Health</strong>
+    </td>
+  </tr>
+</table>
 
+---
 ---
 
 ## 7. Future Roadmap (Post Selection)

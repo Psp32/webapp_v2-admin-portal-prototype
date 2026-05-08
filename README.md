@@ -19,7 +19,7 @@ built as a C4GT 2025 selection proposal.
 
 ### Proposal Documentation
 Full frontend architecture decisions, implemented features, and roadmap:
-[admin_web_proposal.md](admin_web_proposal.md)
+[admin_web_proposal.md](docs/admin_web_proposal.md)
 
 ---
 # Dalgo Web Application
