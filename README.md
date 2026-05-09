@@ -1,9 +1,9 @@
 ---
 
-## 🛠️ Admin Portal Prototype — C4GT 2025 Proposal
+## 🛠️ Admin Portal Prototype — C4GT 2026 Proposal
 
 This fork contains a prototype implementation of the **Dalgo Admin Portal frontend**
-built as a C4GT 2025 selection proposal.
+built as a C4GT 2026 selection proposal.
 
 ### What's Implemented
 - Admin dashboard with monitoring and health views
